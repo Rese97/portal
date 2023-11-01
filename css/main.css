@@ -1,6 +1,7 @@
 /* Global rules */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 html {
     background-color: lightgray;
@@ -21,8 +22,12 @@ h1 {
     line-height: 2.5em;
 }
 
+h1.page-header{
+    font-family: 'Playfair Display', serif;
+}
+
 main.wrapper {
-    background-color: white;
+    background-color: oldlace;
     overflow: auto;
 }
 
